@@ -107,7 +107,7 @@ if __name__ == "__main__":
     elif mode == "web":
         clear_ledger()
         # 👇 Added use_queue=True here so the web UI uses Celery!
-        run_pipeline(batch_size=10, crash_simulation=False, use_queue=True)
+        run_pipeline(batch_size=30, crash_simulation=False, use_queue=True)
 
     else:
         # Normal terminal run
