@@ -29,7 +29,7 @@ function runPython(command) {
     exec(command, {
       cwd: PYTHON_PROJECT,
       shell: true,
-      timeout: 120000,
+      timeout: 300000,
       maxBuffer: 1024 * 1024 * 10,
       env: env
     }, (error, stdout, stderr) => {
