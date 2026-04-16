@@ -1,0 +1,17 @@
+
+ledger/ledger.json
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment Variables (NEVER UPLOAD THIS)
+.env
+
+# Database (Render will create a fresh one)
+ledger/ledger.db

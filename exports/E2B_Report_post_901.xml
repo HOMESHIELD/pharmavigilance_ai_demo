@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ichicsr lang="en">
+    <ichicsrmessageheader>
+        <messagetype>ichicsr</messagetype>
+        <messageformatversion>2.1</messageformatversion>
+        <messageformatrelease>2.0</messageformatrelease>
+        <messagenumb>MSG-20260408122534</messagenumb>
+        <messagesenderidentifier>KYRO-PV-SYSTEM</messagesenderidentifier>
+        <messagereceiveridentifier>CDSCO-INDIA</messagereceiveridentifier>
+        <messagedate>20260408122534</messagedate>
+    </ichicsrmessageheader>
+    <safetyreport>
+        <safetyreportversion>1</safetyreportversion>
+        <safetyreportid>IN-KYRO-post_901</safetyreportid>
+        <primarysourcecountry>IN</primarysourcecountry>
+        <occurcountry>IN</occurcountry>
+        <patient>
+            <patientinitials>PRIVACY_FILTERED</patientinitials>
+            <reaction>
+                <primarysourcereaction>dizziness</primarysourcereaction>
+            </reaction>
+            <drug>
+                <medicinalproduct>crocin</medicinalproduct>
+                <drugcharacterization>1</drugcharacterization>
+            </drug>
+        </patient>
+        <summary>
+            <narrativeincludeclinical>Took crocin and feeling very dizzy.</narrativeincludeclinical>
+        </summary>
+    </safetyreport>
+</ichicsr>
